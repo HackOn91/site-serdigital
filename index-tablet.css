@@ -1,0 +1,233 @@
+@media (min-width:601px) {
+    .header-hero-bg{
+        background-image: radial-gradient(circle at top left, #ff0000, #0000ff);
+    }
+    .header-one-line{
+        height: 4rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-principal_container{
+        width: 40vw;
+        height: 4rem;
+        background-image: radial-gradient(circle at bottom left, rgba(72, 72, 255, 0.39)5%, white 95%);
+    }
+    .header-principal_container header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-principal-logo{
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        padding: 1.3rem 0rem 1rem;
+    }
+    label img{
+        display: none;
+    }
+    /* ---------------------------------------------------------------------------------------- */
+    nav{
+        width: fit-content;
+    }
+    .header-nav_container-ul{
+        display: flex;
+
+        height: 4rem;
+        width: 100%;
+        list-style: none;
+        border: none;
+    }
+    .header-nav_btn a{
+        display: block;
+        width: 100%;
+        text-align: right;
+        text-decoration: none;
+        color: var(--p-color);
+        padding-top: 1.3rem;
+        padding-right: 1rem;
+    }
+    .header-nav_btn:hover{
+        background-color: transparent;
+    }
+    /* --------------------------------------------------------------- */
+    .hero-banner_container{
+        display: flex;
+        flex-direction: column;
+    
+        text-align: center;
+        margin: 0rem auto;
+        width: 100vw;
+        background-image: radial-gradient(circle at top left, rgba(72, 72, 255, 0.39)5%, white 95%);
+    }
+    .hero-banner-title{
+        padding-top: 3rem;
+        font-size: 3rem;
+        text-align: left;
+        margin: 0rem auto 4rem;
+        display: block;
+        width: 90vw;
+    }
+    .hero-banner-p{
+        display: block;
+        width: 90vw;
+        margin: 0rem auto 3rem;
+        text-align: left;
+        font-size: 1.125rem;
+    }
+    .hero-banner-btn{
+        display: block;
+        width: fit-content;
+        font-size: 0.875rem;
+        margin: 0rem auto 3rem 5vw;
+        padding: 0.7rem 1.5rem;
+        background-color: var(--blue-btn);
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        border-radius: 5px;
+    }
+    .hero-banner_container img{
+        width: 80vw;
+        margin: 0rem auto 4rem;
+    }
+    /*------------------------------------------------------------------------------------------  */
+    .cards_container{
+        display: block;
+        width: 80vw;
+        margin: 0rem auto;
+    }
+    .cards_card-container{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 80vw;
+        margin: 0rem auto 3rem; 
+    }
+    .cards_content-container{
+
+    }
+    .cards_card-title{
+        color: var(--p-color);
+        display: block;
+        width: fit-content;
+        font-size: 2.875rem;
+        text-align: left;
+        margin: 0rem auto 0.5rem;
+    }
+    .cards_card-p{
+        text-align: left;
+        color: var(--p-color);
+        font-size: 1rem;
+        margin-bottom: 5rem;
+    }
+    .cards_card-p::after {
+        content: "";
+        display: block;
+        width: 20px; 
+        height: 20px;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ1Yi_D8119pHzXyY-0fLcuFCz2ECL_-AVzw&s');
+        background-size: cover;
+        margin-left: 5px; 
+        position: relative;
+        bottom: 0rem;
+        margin: 1.5rem auto 0 0;
+    }
+    .cards_card-container img{
+        width: 40vw;
+        margin: 0rem auto 5rem;
+    }
+    /* ------------------------------------------------------------------------------------------ */
+    .testemunhos_container {
+        display: block;
+        width: 90vw;
+        margin: 0rem auto;
+    }
+    .testemunhos-title {
+        font-size: 2.875rem;
+        color: var(--p-color);
+        text-align: center;
+        margin: 0rem auto 3rem;
+    }
+    .testemunhos_card-container {
+        display: flex;
+        background-color: #F6F6F6;
+        border-radius: 10px;
+        margin-bottom: 1.5rem;
+    }
+    .testemunhos_card-container img{
+        display: block;
+        width: 20vw;
+        padding-bottom: 4vh;
+        margin: 0rem 3rem;
+    }
+    .testemunhos-content{
+
+    }
+    .testemunhos-card-name {
+        width: fit-content;
+        display: block;
+        font-weight: normal;
+        margin: 0rem auto 2rem;
+        padding-top: 4vh;
+        
+    }
+    .testemunhos-card-p {
+        display: block;
+        width: 57vw;
+        text-align: center;
+        margin: 0 auto;
+        padding:0rem 1rem 2rem 0rem;
+        color: #667085;
+    }
+    /* --------------------------------------------------------------- */
+    .contato_container{
+        border-radius: 10px;
+        display: block;
+        width: 90vw;
+        margin: 0 auto 5rem;
+        background-color: #F6F6F6;
+        height: fit-content;
+        padding-bottom: 1rem;
+    }
+    .contato-title{
+        width: fit-content;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 2rem;
+        color: var(--p-color);
+        padding: 3rem 0rem 2rem;
+    
+    }
+    .contato-p{
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 60vw;
+    }
+    .contato-btn{
+        display: block;
+        text-decoration: none;
+        width: fit-content;
+        margin: 1rem auto;
+        padding: 1rem 1.5rem;
+        background-color: var(--blue-btn);
+        color: white;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+    .contato-container-content::after {
+        content: "";
+        display: block;
+        width: 80vw; 
+        height: 80vh;
+        background-image: url(imagens/customer-support-2x.png);
+        background-size: cover;
+        margin-left: 5px; 
+        position: relative;
+        bottom: 0rem;
+        margin: 1.5rem auto 2rem;
+    }
+    /* --------------------------------------------------------------- */
+    footer{
+        padding-top: 2rem;
+    }
+}
